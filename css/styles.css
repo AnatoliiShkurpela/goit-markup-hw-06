@@ -617,6 +617,30 @@ margin-left: 120px;
     margin-top: 12px;
 }
 
+.footer-subscribe{
+    margin-left: 80px;
+}
+
+.subscribe-text{
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.subscribe-form{
+    display: flex;
+}
+
+.modal-form-subscribe{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    margin-right: 24px;
+}
+
+.modal-send-button-icon {
+    margin-left: 16px;
+}
+
 /*footer*/
 
 /*modal windiw*/
@@ -672,7 +696,6 @@ margin-left: 120px;
     transition: box-shadow var(--transition-duradion-and-funk),
     background-color var(--transition-duradion-and-funk);
     }
-
 
 .modal-close-button-icon{
     transition: var(--transition-duradion-and-funk);
