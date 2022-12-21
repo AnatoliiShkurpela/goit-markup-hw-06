@@ -822,7 +822,7 @@ margin-left: 120px;
 
 .modal-form-check:checked + .modal-form-check-desc::before{
     background-color: var(--secondary-color-first);
-    background-image: url(/images/studio/confirmation.svg/svg.conformation#icon-confirmation);
+    background-image: url(../images/studio/confirmation.svg/);
     border: 1.25px solid var(--secondary-color-fourth);
     border-radius: 2px;
 }
