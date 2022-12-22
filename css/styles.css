@@ -849,9 +849,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     cursor: pointer;
 }
 
-.modal-form-check:checked + .modal-form-check-desc::before{
+.modal-form-check:checked + .modal-form-check-desc::before{ 
+    background-image: url(../images/confirmation.svg.svg);
     background-color: var(--secondary-color-first);
-    background-image: url(../images/studio/confirmation.svg/);
     border: 1.25px solid var(--secondary-color-fourth);
     border-radius: 2px;
 }
