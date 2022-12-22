@@ -728,7 +728,7 @@ margin-left: 120px;
 }
 
 .modal-form-field{
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
 .modal-form-input-desc{
@@ -751,7 +751,7 @@ margin-left: 120px;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    padding-left: 62px;
+    padding-left: 35px;
     color: #000000;
     transition: border-color var(--transition-duradion-and-funk);
 }
@@ -783,6 +783,7 @@ margin-left: 120px;
     padding-bottom: 8px;
     padding-right: 8px;
     border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
     transition: border-color var(--transition-duradion-and-funk);
 }
 
@@ -794,6 +795,7 @@ margin-left: 120px;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
 }
+
 
 .modal-form-massage:focus{
     outline: none;
@@ -809,6 +811,7 @@ margin-left: 120px;
     letter-spacing: 0.04em;
     color: #757575;
     margin-bottom: 24px;
+    padding-left: 4px;
 }
 
 .modal-form-check-desc::before{
@@ -826,8 +829,20 @@ margin-left: 120px;
     border: 1.25px solid var(--secondary-color-fourth);
     border-radius: 2px;
 }
+.user-police{
+    margin-left: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #757575;
+    }
 
-.modal-for-sumbit{
+.privacy-policy{
+    color:var(--secondary-color-first)
+}
+
+.modal-for-submit{
     align-self: center;
     font-weight: 500;
     font-size: 16px;
@@ -835,6 +850,7 @@ margin-left: 120px;
     text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    border-color: transparent;
     background-color: var(--secondary-color-first);
     cursor: pointer;
     margin: 0;
@@ -845,8 +861,8 @@ margin-left: 120px;
     transition: box-shadow var(--transition-duradion-and-funk);
 }
 
-.modal-for-sumbit:hover, 
-.modal-for-sumbit:focus{
+.modal-for-submit:hover, 
+.modal-for-submit:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     background-color: #404BBF;
 }
